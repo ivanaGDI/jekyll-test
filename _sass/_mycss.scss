@@ -1,0 +1,35 @@
+//***********************
+// Site CSS
+//***********************
+
+
+.icon {
+    margin-right: 10px;
+
+    &:before {
+        font-family: $icon-font;
+    }
+}
+
+.icon--checked:before {
+    content: "\e900";
+}
+
+.icon--unchecked:before {
+    content: "\e901";
+}
+
+.icon--crossed:before {
+    content: "\e902";
+}
+
+.checklist {
+
+    li {
+        list-style: none;
+
+        &:before {
+            margin-right: 10px;
+        }
+    }
+}
