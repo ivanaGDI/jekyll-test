@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2016-01-05 14:45:09 -0500
+date:   2015-12-10 14:45:09 -0500
 categories: blog2
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
@@ -16,6 +16,12 @@ def print_hi(name)
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+{% highlight js %}
+var addAnO = function(chosen){
+    $("li").eq(chosen).html($circle.clone().css("visibility","visible"));
+};
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
