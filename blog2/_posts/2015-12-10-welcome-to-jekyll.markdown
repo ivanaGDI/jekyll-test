@@ -18,11 +18,13 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight js linenos %}
 var addAnO = function(chosen){
     $("li").eq(chosen).html($circle.clone().css("visibility","visible"));
 };
 {% endhighlight %}
+
+{% gist ivanaGDI/f7876a698d1f839c9834 %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
