@@ -12,15 +12,19 @@ description: > # this means to ignore newlines until "baseurl:"
   This is a test Jekyll site. I wish to test out a new template setup.
   Also, I wish to test out pagination on this site, as well as,
   setting up a multi blog (potentially with pagination and RSS working on each).
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/jekyll-test-site" # the subpath of your site, e.g. /blog
+url: "ivanaGDI.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+sass:
+  sass_dir: css/_sass
 
 # Pagination
 paginate: 5
 paginate_path: "blog/:num"
-gems: [jekyll-paginate]
+
+# Gems
+gems: [jekyll-paginate, jekyll-gist, jekyll-coffeescript]
