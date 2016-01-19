@@ -19,9 +19,9 @@
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %} -->
-        <a class="page-link" href="/about">About</a>
-        <a class="page-link" href="/blog">Blog</a>
-        <a class="page-link" href="/blog2">Blog2</a>
+        <a class="page-link" href="{{ site.baseurl }}/about">About</a>
+        <a class="page-link" href="{{ site.baseurl }}/blog">Blog</a>
+        <a class="page-link" href="{{ site.baseurl }}/blog2">Blog2</a>
       </div>
     </nav>
 
